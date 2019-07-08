@@ -1,0 +1,46 @@
+{
+	"name": "device-dashboard",
+	"version": "1.0.0",
+	"description": "relayr frontend hiring test",
+	"main": "index.js",
+	"scripts": {
+		"start": "npm run start:api | react-scripts start",
+		"build": "react-scripts build",
+		"start:api": "node api-server.js"
+	},
+	"license": "ISC",
+	"dependencies": {
+		"@material-ui/core": "1.5.1",
+		"axios": "0.18.0",
+		"faker": "^4.1.0",
+		"lodash": "4.17.10",
+		"match-sorter": "2.2.3",
+		"react": "16.3.2",
+		"react-dom": "16.3.2",
+		"react-redux": "5.0.7",
+		"react-router-dom": "4.3.1",
+		"react-scripts": "1.1.4",
+		"react-table": "6.8.6",
+		"redux": "4.0.0",
+		"redux-form": "7.4.2",
+		"redux-saga": "0.16.0",
+		"reselect": "latest"
+	},
+	"devDependencies": {
+		"@babel/core": "7.1.6",
+		"@babel/preset-react": "^7.0.0",
+		"babel-loader": "^8.0.4",
+		"css-loader": "^0.28.11",
+		"extract-text-webpack-plugin": "^3.0.2",
+		"html-webpack-plugin": "^3.2.0",
+		"mini-css-extract-plugin": "^0.5.0",
+		"open": "0.0.5",
+		"path": "^0.12.7",
+		"restify": "^8.0.0",
+		"react-hot-loader": "^3.1.3",
+		"restify-cors-middleware": "^1.1.1",
+		"webpack": "^4.19.1",
+		"webpack-cli": "^3.2.3",
+		"webpack-dev-server": "3.1.14"
+	}
+}

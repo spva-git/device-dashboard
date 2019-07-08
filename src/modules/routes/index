@@ -1,0 +1,15 @@
+import React from 'react';
+import {
+  InviteList,
+  InviteCandidate,
+  TestBank,
+  ConfigureTest
+} from '../../containers';
+
+export default [
+  {
+    name: 'Task List',
+    path: '/task-list',
+    component: () => <TaskList />
+  }
+];
