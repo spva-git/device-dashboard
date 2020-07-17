@@ -13,7 +13,7 @@
 		"@material-ui/core": "1.5.1",
 		"axios": "0.18.0",
 		"faker": "^4.1.0",
-		"lodash": "4.17.10",
+		"lodash": "4.17.19",
 		"match-sorter": "2.2.3",
 		"react": "16.3.2",
 		"react-dom": "16.3.2",
